@@ -9,10 +9,9 @@ window.addEventListener("scroll", function()
 })
 
 const element =  document.querySelector('.myName')
-element.classList.add('wow', 'fadeInDown_custom')
+element.classList.add('wow', 'fadeInDown')
 
-const element2 =  document.querySelector('.mef')
-element2.classList.add('wow', 'fadeInRightBig')
+
 
 const element3 =  document.querySelector('#skills')
 element3.classList.add('wow', 'fadeInLeftBig_custom')
@@ -35,6 +34,18 @@ element8.classList.add('wow', 'bounceInUp')
 const element9 =  document.querySelector('#skill_four')
 element9.classList.add('wow', 'fadeInLeftBig')
 
+const element10 =  document.querySelector('#cert')
+element10.classList.add('wow', 'zoomIn')
+
+const element11 =  document.querySelector('#cert_one')
+element11.classList.add('wow', 'fadeInLeftBig')
+const element12 =  document.querySelector('#cert_two')
+element12.classList.add('wow', 'fadeInRightBig')
+const element13 =  document.querySelector('#cert_three')
+element13.classList.add('wow', 'fadeInLeftBig')
+const element14 =  document.querySelector('#cert_four')
+element14.classList.add('wow', 'fadeInRightBig')
+
 
 const par2 = document.getElementById
 ("move2");
@@ -45,7 +56,15 @@ window.addEventListener("scroll", function()
     par2.style.backgroundPositionY =  offset * -0.5 + "px";
 
 })
+const par3 = document.getElementById
+("move3");
 
+window.addEventListener("scroll", function()
+{
+    let offset = window.pageYOffset;
+    par3.style.backgroundPositionY =  offset * -0.5 + "px";
+
+})
 
 const div3 = document.getElementsByClassName("intro-text");
 window.addEventListener("scroll", function scrollAppear()     
@@ -64,3 +83,7 @@ window.addEventListener("scroll", function scrollAppear()
 
 window.addEventListener('scroll',scrollAppear);
 
+var typed = new Typed('.element', {
+    strings: ["First sentence.", "Second sentence."],
+    typeSpeed: 30
+  });
