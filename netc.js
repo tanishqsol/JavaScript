@@ -14,7 +14,7 @@ element.classList.add('wow', 'fadeInDown')
 
 
 const element3 =  document.querySelector('#skills')
-element3.classList.add('wow', 'fadeInLeftBig_custom')
+element3.classList.add('wow', 'zoomIn')
 
 const element4 =  document.querySelector('#skill_one')
 element4.classList.add('wow', 'fadeInLeftBig')
