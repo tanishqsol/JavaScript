@@ -68,9 +68,20 @@ h2
 {   
     font-size: 20px;
     font-weight: 100;
-    position: absolute;
-    left: 25%;
+    position: relative;
     top: 70%;
+    color: rgb(103, 61, 172);
+    font-weight: bolder;
+    text-align: center;
+}
+
+#typing2
+{   
+    font-size: 60px;
+    font-weight: 100;
+    position: relative;
+    left: 50%;
+    top: 25%;
 }
 
 
