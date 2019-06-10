@@ -4,7 +4,7 @@ const par = document.getElementById
 window.addEventListener("scroll", function()
 {
     let offset = window.pageYOffset;
-    par.style.backgroundPositionY =  offset * -0.9 + "px";
+    par.style.backgroundPositionY =  offset * -0.7 + "px";
 
 })
 
@@ -26,16 +26,48 @@ const element6 =  document.querySelector('#skill_three')
 element6.classList.add('wow', 'fadeInRightBig')
 
 const element7 =  document.querySelector('#skill_six')
-element7.classList.add('wow', 'fadeInUpBig')
+element7.classList.add('wow', 'fadeInUp')
 
 const element8 =  document.querySelector('#skill_five')
-element8.classList.add('wow', 'bounceInUp')
+element8.classList.add('wow', 'zoomIn')
 
 const element9 =  document.querySelector('#skill_four')
 element9.classList.add('wow', 'fadeInLeftBig')
 
+const element15 =  document.querySelector('#skill_seven')
+element15.classList.add('wow', 'fadeInDown')
+
 const element10 =  document.querySelector('#cert')
 element10.classList.add('wow', 'zoomIn')
+
+const element16 =  document.querySelector('#exp')
+element16.classList.add('wow', 'zoomIn')
+
+const element17 =  document.querySelector('#exp_name_1')
+element17.classList.add('wow', 'fadeInLeftBig')
+
+const element18 =  document.querySelector('#company_1')
+element18.classList.add('wow', 'fadeInRightBig')
+
+const element19 =  document.querySelector('#company_2')
+element19.classList.add('wow', 'fadeInLeftBig')
+
+const element20 =  document.querySelector('#exp_name_2')
+element20.classList.add('wow', 'fadeInRightBig')
+
+const element21 =  document.querySelector('#dem_fluence')
+element21.classList.add('wow', 'fadeInUp_custom2')
+
+const element22 =  document.querySelector('#progressive')
+element22.classList.add('wow', 'fadeInUp_custom2')
+
+
+const element24 =  document.querySelector('#no_anim')
+element24.classList.add('wow', 'zoomOutDown')
+
+
+
+
 
 const element11 =  document.querySelector('#cert_one')
 element11.classList.add('wow', 'fadeInLeftBig')
@@ -53,7 +85,7 @@ const par2 = document.getElementById
 window.addEventListener("scroll", function()
 {
     let offset = window.pageYOffset;
-    par2.style.backgroundPositionY =  offset * -0.5 + "px";
+    par2.style.backgroundPositionY =  offset * 0.6 + "px";
 
 })
 const par3 = document.getElementById
@@ -66,13 +98,23 @@ window.addEventListener("scroll", function()
 
 })
 
+const par4 = document.getElementById
+("move4");
+
+window.addEventListener("scroll", function()
+{
+    let offset = window.pageYOffset;
+    par4.style.backgroundPositionY =  offset * -0.3 + "px";
+
+})
+
 const div3 = document.getElementsByClassName("intro-text");
 window.addEventListener("scroll", function scrollAppear()     
 
 {
     var introText = document.querySelector(".intro-text");
     var introPosition = introText.getBoundingClientRect().top;
-    var screenPosition =  window.innerHeight ;
+    var screenPosition =  window.innerHeight/2 ;
     
     if(introPosition < screenPosition)
     {

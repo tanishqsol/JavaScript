@@ -1581,12 +1581,44 @@
 }
 
 .fadeInLeftBig_custom {
-  -webkit-animation-name: fadeInLeftBig;
-  animation-name: fadeInLeftBig;
-  animation-delay: 0.5s;
+  -webkit-animation-name: fadeInLeftBig_custom;
+  animation-name: fadeInLeftBig_custom;
+  animation-delay: 0.8s;
 }
 
+@-webkit-keyframes fadeInLeftBig_custom3 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
 
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeftBig_custom3 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeftBig_custom3 {
+  -webkit-animation-name: fadeInLeftBig_custom3;
+  animation-name: fadeInLeftBig_custom3;
+  animation-delay: 1s;
+}
 
 
 
@@ -1689,6 +1721,43 @@
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+
+@-webkit-keyframes fadeInUp_custom2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp_custom2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp_custom2 {
+  -webkit-animation-name: fadeInUp_custom2;
+  animation-name: fadeInUp_custom2;
+  animation-delay: 1s;
+}
+
+
+
 
 @-webkit-keyframes fadeInUpBig {
   from {
@@ -1978,6 +2047,7 @@
 .fadeOutUpBig {
   -webkit-animation-name: fadeOutUpBig;
   animation-name: fadeOutUpBig;
+  
 }
 
 @-webkit-keyframes flip {
@@ -3269,6 +3339,7 @@
 .zoomOutDown {
   -webkit-animation-name: zoomOutDown;
   animation-name: zoomOutDown;
+  animation-delay: 2.4s;
 }
 
 @-webkit-keyframes zoomOutLeft {

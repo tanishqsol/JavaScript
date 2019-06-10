@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html>
-        <head></head>
+        <head>
+        <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'></head>
         <link rel =  "stylesheet" href = "netc.css">
         <link rel =  "stylesheet" href = "animate.css">
-    <body>
+      
+        <meta name ="viewport" content="width=device-width ,height=device-height, initial scale =1.0">
         
-        <div id = "particles-js"> 
-            <h2 class = "myName">Tanishq's Resume</h2>
-        <h6 id = "typing">I am a <span class = "typing"></span></h6>
+    <body>
+
+            <div class="header">
+                    <img src = "me_top.png" class="logo"></a>
+                    <div class="header-right">
+                      <a class="active" href="index1.html">Home</a>
+                      <a href="index3.html">View CV</a>
+                      <a href="index.html">Restart</a>
+                    </div>
+                  </div>
+                  
+                  
+
+
+
+        <div  class = "move">
+                        <h2 class = "myName">Tanishq's Resume</h2>
+                        <h6 id = "typing"><span class = "typing"></span></h6>
+                        
         </div>
+        <div id = "particles-js"> 
+                <p class = "intro-text">Technically savvy computer science graduate with a strong acumen.
+                        <br> A quick learner and ability to dive into difficult problems and deliver results.
+                        <br> Committed to learning new technologies and achieve excellence in each task.</p>
+                        
+        </div>
+
+        
        
-        <div  id = "move"></div>
+        
        
-        <div id = "third" >      
-            <p class = "intro-text">Technically savvy computer science graduate with a strong acumen.
-                <br> A quick learner and ability to dive into difficult problems and deliver results.
-                <br> Committed to learning new technologies and achieve excellence in each task.</p>
-                
-            </div>
+       <!---- <div id = "third" >     
+            
+            </div> -->
        
         <div id = "move2"> 
         <h3 id = "skills">SKILLS</h3></div>
         <div class = "flex">
         <section class= "flex-container">
             <div id ="skill_one"><img src = "jslogo.png",class = "jslogo"> </div>
+            
+           
+              
+         
 
             <div id ="skill_two"><img src = "Html_Logo.png",class = "htmllogo"></div>
 
@@ -34,19 +62,22 @@
             <div id ="skill_five"><img src = "java.png",class = "javalogo"> </div>
     
             <div id ="skill_six"><img src = "android.png",class = "androidlogo">  </div> 
+
+            <div id ="skill_seven"><img src = "photoshop_logo.png",class = "photoshop">  </div> 
+
             </section>
         </div>
         <div id = "move3"> 
             <h3 id = "cert">CERTIFICATIONS</h3></div>
         <div class = "flex2">
                 <section class= "flex-container2">
-                    <div id ="cert_one">Python Bootcamp(Udemy)</div>
+                    <div id ="cert_one">1 - Python Bootcamp(Udemy)</div>
         
-                    <div id ="cert_two">Android development(CyberCure Technologies)</div>
+                    <div id ="cert_two">2 - Android development(CyberCure Technologies)</div>
         
-                    <div id ="cert_three">Python for data science(IBM)</div> 
+                    <div id ="cert_three">3 - Python for data science(IBM)</div> 
                    
-                    <div id ="cert_four">Machine Learning</div>
+                    <div id ="cert_four">4 -  Machine Learning</div>
                     
 
             
@@ -54,6 +85,38 @@
                     </section>
                 </div>
         
+
+                <div id = "move4"> 
+                        <h3 id = "exp">WORK EXPERIENCE</h3></div>
+                    <div class = "flex3">
+
+                            <section class= "flex-container3">
+                                <div id ="exp_one">
+                                    <h5 id = "exp_name_1">Management Trainee</h5>
+                                    <h4 id = "company_1">(Demandfluence Marketing Pvt. Ltd.)</h4>
+                                 <p id = "dem_fluence">Handled campaigns for Expleo(formerly SQS) by conducting research, drafting sales pitch ,presentation and identifying new business opportunities.</p>           
+                                 
+                                </div>
+                    
+                                <div id ="exp_two">
+                                    <h5 id = "exp_name_2">Web Developer</h5>
+                                    <h4 id = "company_2">(Progressive Infotech Pvt. Ltd.)</h4>
+                                <p id = "progressive">Created a student internship portal for progressive systems as internship project assigned to me during my plan - B using (HTML and CSS).</p>
+                                
+                            </div>
+                                         
+                                </section>
+                            <div class= "slantdiv">
+                                <p id ="for">Specially made for</p>
+                                <img src="netcracker_1.png" id ="netcracker_logo">
+                                <p id="no_anim">Last animation, promise.
+                                </p>
+                            </div> 
+                            
+                        
+                            
+                                    
+                    
        
                 
             
@@ -64,21 +127,59 @@
     </script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
-    <script src="jquery.3.min.js"></script>
+    
     <script src="typed.min.js"></script>
     <script type = "text/javascript">
 
-    //var typed2 = new Typed('.typing2', {
-    //strings: ["and welcome to"],
-    //typeSpeed: 30,});
     var typed = new Typed('.typing', {
-    strings: ["B.tech Graduate","B.tech Graduate (Computer Science)","Quick Learner!!","Quick Learner , please SCROLL"],
-    typeSpeed: 20,
+    strings: ["B.tech Graduate","B.tech Graduate (CS) Symbiosis Institute Of Technology","Quick Learner","Creative","Hardworking","Consistent","Please scroll"],
+    typeSpeed: 10,
+    backSpeed:30,
     
     
     
   });
+
     </script>
+
+    
+
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <!-- scrollSpy plugin see https://github.com/thesmart/jquery-scrollspy -->
+    <script src="https://gitcdn.xyz/repo/thesmart/jquery-scrollspy/0.1.3/scrollspy.js"></script>
+    
+    <!-- Modify after -->
+    <script>
+      // Repeat demo content
+      var $body = $('body');
+      var $box = $('.box');
+      for (var i = 0; i < 20; i++) {
+        $box.clone().appendTo($body);
+      }
+    
+      // Helper function for add element box list in WOW
+      WOW.prototype.addBox = function(element) {
+        this.boxes.push(element);
+      };
+    
+      // Init WOW.js and get instance
+      var wow = new WOW();
+      wow.init();
+    
+      // Attach scrollSpy to .wow elements for detect view exit events,
+      // then reset elements and add again for animation
+      $('.wow',).on('scrollSpy:exit', function() {
+        $(this).css({
+          'visibility': 'hidden',
+          'animation-name': 'none'
+        }).removeClass('animated');
+        wow.addBox(this);
+      }).scrollSpy();
+    
+    </script>
+    
+    
 
     </body>
 </html>
