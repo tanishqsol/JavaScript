@@ -501,6 +501,8 @@ jscript:hover + .show
 {
     position: absolute;
     left:40px;
+    margin: 30px;
+    padding-top:30px; 
 }
 #no_anim
 {
