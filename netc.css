@@ -393,7 +393,7 @@ jscript:hover + .show
     
     position: relative;
     width: 100%;
-    position: fixed;
+    
     background-color: rgba(78, 77, 77, 0.1);
     z-index: 1;
   }
