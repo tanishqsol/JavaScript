@@ -394,7 +394,7 @@ jscript:hover + .show
     position: relative;
     width: 100%;
     
-    background-color: rgba(78, 77, 77, 0.1);
+    background-color: rgba(78, 77, 77, 0.6);
     z-index: 1;
   }
   
