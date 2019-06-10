@@ -4,11 +4,15 @@
     <head></head>
     <link rel =  "stylesheet" href = "style.css">
     <link rel =  "stylesheet" href = "animate2.css">
+    <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'>
         <body>
-                <a href="index1.html" class = "butt"><span>proceed </span></a>   
-            <div id = "div1"><img src="locked.png" id="locked">
+                  
+            <div id= "particles-js">
+             <div id = "container">   
             <h6 id= "typing_text"> <span class = "typing"></span></h6>
+            <a href="index1.html" class = "butt"><span id ="proceed">proceed </span></a>
             </div>
+        </div>
             
             
             
@@ -22,11 +26,14 @@
             <script src="typed2.min.js"></script>
             <script type = "text/javascript">
             var typed = new Typed('.typing', {
-            strings: ["........"],
-            typeSpeed: 200,
+            strings: ["print('hello world')" ,"Welcome"],
+            typeSpeed: 100,
+            backSpeed:30,
            
             });
             </script>
+           <script src="particles.js"></script>
+           <script src="app_2.js"></script>
             
         </body>
     
