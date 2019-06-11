@@ -61,9 +61,8 @@ element21.classList.add('wow', 'fadeInUp_custom2')
 const element22 =  document.querySelector('#progressive')
 element22.classList.add('wow', 'fadeInUp_custom2')
 
-
-const element24 =  document.querySelector('#no_anim')
-element24.classList.add('wow', 'zoomOutDown')
+const element24 =  document.querySelector('#CV')
+element24.classList.add('wow', 'fadeInUp_custom2')
 
 
 
