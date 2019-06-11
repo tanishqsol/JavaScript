@@ -28,6 +28,12 @@ h2
     
  
 }
+#CV
+{
+    position: absolute;
+    right:20%;
+    color: aliceblue;
+}
 #skills
 {
     font-size: 40px;
